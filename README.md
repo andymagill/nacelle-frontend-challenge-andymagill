@@ -10,8 +10,7 @@ This project is built using React, Redux Toolkit, TypeScript, and Tailwind CSS. 
 
 1. **Clone the repository**:
    ```terminal
-   git clone https://github.com/your-username/nacelle-challenge.git
-   cd nacelle-challenge
+   git clone https://github.com/andymagill/nacelle-frontend-challenge-andymagill.git
    ```
 
 2. **Install dependencies**:
@@ -38,7 +37,7 @@ This project is built using React, Redux Toolkit, TypeScript, and Tailwind CSS. 
 
 Github Copilot was used for project setup, creating a basic scaffold, and troublshooting any errors I encountered. 
 
-Notifcations need to be added using the button and are not shown for 1st time visitors. Active notifications are currently saved to local storage when created, displayed on page load, and deleted when dismissed. This may differ from expectations for the challenge. 
+Notifcations need to be added using the button and are not shown for 1st time visitors. Active notifications are currently saved to local storage when created, displayed on page load, and deleted from storage when dismissed. This may differ from expectations for the challenge. 
 
 I also did not perform any source control methods. In a real-world scenario, I would have feature branches for notifications and modals, merge my changes into a develop branch, and submit a PR to the main branch for deployment. 
 
@@ -46,14 +45,6 @@ I also did not perform any source control methods. In a real-world scenario, I w
 
 ```
 nacelle-challenge/
-  ├── .gitignore
-  ├── package.json
-  ├── postcss.config.js
-  ├── public/
-  │   ├── index.html
-  │   ├── manifest.json
-  │   └── robots.txt
-  ├── README.md
   ├── src/
   │   ├── App.css
   │   ├── App.test.tsx
@@ -74,6 +65,14 @@ nacelle-challenge/
   │   └── tests/
   │       ├── modal.test.tsx
   │       └── notifications.test.tsx
+  ├── .gitignore
+  ├── package.json
+  ├── postcss.config.js
+  ├── public/
+  │   ├── index.html
+  │   ├── manifest.json
+  │   └── robots.txt
+  ├── README.md
   ├── tailwind.config.js
   └── tsconfig.json
 ```
